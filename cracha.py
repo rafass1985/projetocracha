@@ -161,9 +161,10 @@ def main():
         pdf.text(x_text, y_text, cargo1.upper())
         if cargo2 != "":
            y_text = y_text + kerning
-           pdf.text(x_text, y_text, f"e {cargo2.upper()}")
+           
         
         pdf.set_font("Arial","B",9)
+        pdf.text(x_text, y_text, cargo2.upper())
         y_text = y_text + kerning
         pdf.text(x_text, y_text, grupo.upper())
         y_text = y_text + kerning
