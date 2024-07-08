@@ -135,7 +135,7 @@ def main():
         
         # posicão dos textos do crachá
         x_text = 7
-        y_text = 100
+        y_text = 95
         kerningNome = 5
         kerning = 4.5
 
